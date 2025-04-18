@@ -1,14 +1,17 @@
-<!-- GitHub Profile README for subrata-code -->
+<h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> নমস্কার (Namaste)🙏🏻, I'm Subrata! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<p><em>“Where creativity meets code — I turn concepts into vivid digital realities with MERN, Python, and pure imagination.”
+</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+</em></p>
 
-<h1 align="center">Hey, I'm Subrata 👋</h1>
+[![Twitter Follow](https://img.shields.io/twitter/follow/misteranmol?label=Follow)](https://x.com/subratabag)
+[![Linkedin: anmol](https://img.shields.io/badge/-subrata-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/subrata-bag-547091293/)](https://www.linkedin.com/in/subrata-bag-547091293/)
+![GitHub followers](https://img.shields.io/github/followers/subrata-code?label=Follow&style=social)
+[![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://subrata-code.github.io/subrata-s-portfolio/)](https://subrata-code.github.io/subrata-s-portfolio/)
 
-<p align="center">
-  <em>“Where creativity meets code — I turn concepts into vivid digital realities with MERN, Python, and pure imagination.”</em>
-</p>
+<a href="https://trendshift.io/developers/2235" target="_blank"><img src="https://trendshift.io/api/badge/developers/2235" alt="subrata-code | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
----
-
-### 💡 About Me
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
 - 🎨 Passionate Developer blending code and creativity  
 - 💻 MERN Stack Frontend Specialist | Python & C Programmer  
@@ -46,11 +49,21 @@
 ![Docker](https://img.shields.io/badge/-Docker-black?style=for-the-badge&logo=docker)
 ---
 
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+
+<br/>
+- <img src="https://profile-counter.glitch.me/{subrata-code}/count.svg" alt="subrata-code :: Visitor's Count" />
+
+
 ### 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=subrata-code&show_icons=true&theme=radical" height="180" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subrata-code&layout=compact&theme=radical" height="180"/>
+</p>
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=subrata-code&theme=juicyfresh&no-bg=true" />
 </p>
 
 ---
@@ -64,12 +77,11 @@
 
 ---
 
-### 🌐 Let's Connect
-
-[![Portfolio](https://img.shields.io/badge/-Portfolio-black?style=flat-square&logo=dev.to)](https://github.com/subrata-code)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter)](https://twitter.com/yourhandle)
+[![Subrata's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=subrata-code&theme=dracula)](https://github.com/subrata-code/github-readme-activity-graph)
 
 ---
 
 _“Art is not just painted. It's coded.”_
+<p align="center">
+        <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" />
+</p>
