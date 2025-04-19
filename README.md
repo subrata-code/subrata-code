@@ -1,4 +1,11 @@
+
 <h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> নমস্কার (Namaste)🙏🏻, I'm Subrata! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
+<!--horizontal divider(gradiant)-->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<div align="center">
+  <img src="https://camo.githubusercontent.com/caf7ccb8a124aa52bc28475ca9eaee84f6342c3d25501aed496f39dbe0c0a3ac/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a45784d474e715a6a63354f446831624449334d54467763323030625867786158426c626d4d78596a46764d6a566e595464715a5864365a535a6c634431324d56396e61575a7a58334e6c59584a6a61435a6a6444316e2f4c384b36326954446b7a4758362f67697068792e676966">
+</div>
+
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 <p><em>“Where creativity meets code — I turn concepts into vivid digital realities with MERN, Python, and pure imagination.”
 </a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
