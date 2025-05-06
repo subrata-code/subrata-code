@@ -98,7 +98,7 @@
 
 <a href="https://trendshift.io/developers/2235" target="_blank"><img src="https://trendshift.io/api/badge/developers/2235" alt="subrata-code | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100"> A little more about me...  
 
 - 🎨 Passionate Developer blending code and creativity  
 - 💻 MERN Stack Frontend Specialist | Python & C Programmer  
@@ -106,10 +106,15 @@
 - 🛠️ I build everything from responsive UIs to backends that breathe  
 - 🚀 Always shipping, always learning
 
----
+<!--📏LINE-->
+<p align="center">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
+<!--🤔INTERESTTITLE-->
+<p align="center">
+<img src="https://i.imgur.com/ozEwbHs.gif">
+  
 ### 🔧 Tech Stack
-
 **💻 Languages & Frontend**
 ![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3)
@@ -134,7 +139,9 @@
 ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb)
 ![Git](https://img.shields.io/badge/-Git-black?style=for-the-badge&logo=git)
 ![Docker](https://img.shields.io/badge/-Docker-black?style=for-the-badge&logo=docker)
----
+</h4>
+<!--📏LINE-->
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
 
