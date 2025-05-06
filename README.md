@@ -143,7 +143,7 @@
 <!--📏LINE-->
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+<img src="https://c.tenor.com/SOVMSXmWB1kAAAAi/tony-star-jumping.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
 
 <br/>
 - <img src="https://profile-counter.glitch.me/{subrata-code}/count.svg" alt="subrata-code :: Visitor's Count" />
