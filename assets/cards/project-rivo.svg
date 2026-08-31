@@ -54,11 +54,11 @@
 <rect width="520" height="220" rx="16" fill="#05070d"/>
 <rect x="1" y="1" width="518" height="218" rx="15" fill="#0a1424" stroke="url(#gNeon)" stroke-width="1"/>
 <text class="m" x="24" y="32" fill="#22d3ee" font-size="10" letter-spacing="2">FEATURED  ·  LIVE LOCATION</text>
-<text class="t" x="24" y="64" fill="#e8eefc" font-size="22" font-weight="700">Rivo</text>
+<text class="t" x="24" y="64" fill="#e8eefc" font-size="22" font-weight="700">AlgoMaster</text>
 <text class="t" x="24" y="96" fill="#8b9cc8" font-size="13">Group riding with shared live location</text>
 <text class="t" x="24" y="118" fill="#8b9cc8" font-size="13">and assistance alerts when a rider needs help.</text>
 <rect x="24" y="148" width="472" height="48" rx="8" fill="#071018" stroke="#1a2a48"/>
-<text class="m" x="40" y="178" fill="#5b6b8c" font-size="12">repo  ·  github.com/subrata-code/Rivo</text>
+<text class="m" x="40" y="178" fill="#5b6b8c" font-size="12">repo  ·  https://github.com/subrata-code/AlgoMaster</text>
 <circle cx="484" cy="36" r="6" fill="#22d3ee" class="pulse"/>
 
 </svg>

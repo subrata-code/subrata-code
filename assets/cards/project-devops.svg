@@ -58,7 +58,7 @@
 <text class="t" x="24" y="96" fill="#8b9cc8" font-size="13">Reserved slot for a CI/CD, containers,</text>
 <text class="t" x="24" y="118" fill="#8b9cc8" font-size="13">and cloud automation project.</text>
 <rect x="24" y="148" width="472" height="48" rx="8" fill="#071018" stroke="#1a2a48"/>
-<text class="m" x="40" y="178" fill="#5b6b8c" font-size="12">url  ·  EDIT_ME_IN_README</text>
+<text class="m" x="40" y="178" fill="#5b6b8c" font-size="12">url  ·  EDIT_ME</text>
 <circle cx="484" cy="36" r="6" fill="#22d3ee" class="pulse"/>
 
 </svg>

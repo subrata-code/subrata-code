@@ -58,7 +58,7 @@
 <text class="t" x="24" y="96" fill="#8b9cc8" font-size="13">Personal site for experiments, 3D work,</text>
 <text class="t" x="24" y="118" fill="#8b9cc8" font-size="13">and a public record of the digital universe.</text>
 <rect x="24" y="148" width="472" height="48" rx="8" fill="#071018" stroke="#1a2a48"/>
-<text class="m" x="40" y="178" fill="#5b6b8c" font-size="12">repo  ·  github.com/subrata-code/subrata-s-portfolio</text>
+<text class="m" x="40" y="178" fill="#5b6b8c" font-size="12">repo  ·  https://github.com/subrata-code/subrata-s-portfolio</text>
 <circle cx="484" cy="36" r="6" fill="#22d3ee" class="pulse"/>
 
 </svg>

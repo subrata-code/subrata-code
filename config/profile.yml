@@ -46,8 +46,8 @@ projects:
     title: "Future DevOps Project"
     url: "EDIT_ME"                                # replace with a real repo URL
   future_dsa:
-    title: "Future Java/DSA Project"
-    url: "EDIT_ME"
+    title: "Follow Java/DSA Journey"
+    url: "https://github.com/subrata-code/Dsa-Journey"
 
 # Do not invent URLs. Leave EDIT_ME until you have a real profile.
 social:

@@ -3,8 +3,17 @@
 
 from pathlib import Path
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
+
+
+def load_profile():
+    path = ROOT / "config" / "profile.yml"
+    with path.open("r", encoding="utf-8") as handle:
+        data = yaml.safe_load(handle) or {}
+    return data
 
 # Theme tokens
 BG = "#05070d"
@@ -113,6 +122,12 @@ def write(rel, content):
 
 
 def hero(light=False):
+    profile = load_profile()
+    identity = profile.get("identity", {})
+    name = str(identity.get("name", "Subrata Bag")).upper()
+    headline = str(identity.get("headline", "Creative Developer")).upper()
+    github_username = identity.get("github_username", "subrata-code")
+
     w, h = 1200, 380
     fill = "url(#gSkyLight)" if light else "url(#gSky)"
     title = "#0b1220" if light else TEXT
@@ -157,15 +172,15 @@ def hero(light=False):
 <text class="m" x="1040" y="42" fill="{accent}" font-size="10" letter-spacing="1.6" text-anchor="end">LAT 22N · NODE SB</text>
 <g transform="translate(72 118)">
   <text class="t" x="0" y="0" fill="{accent}" font-size="13" letter-spacing="6">DIGITAL UNIVERSE</text>
-  <text class="t" x="0" y="62" fill="{title}" font-size="52" font-weight="700" letter-spacing="2.5">SUBRATA BAG</text>
-  <text class="t" x="0" y="100" fill="{sub}" font-size="20" letter-spacing="4.2" font-weight="600">CREATIVE DEVELOPER</text>
+  <text class="t" x="0" y="62" fill="{title}" font-size="52" font-weight="700" letter-spacing="2.5">{name}</text>
+  <text class="t" x="0" y="100" fill="{sub}" font-size="20" letter-spacing="4.2" font-weight="600">{headline}</text>
   <rect x="0" y="118" width="220" height="2" fill="url(#gNeon)"/>
   <text class="m" x="0" y="152" fill="{hud}" font-size="14" letter-spacing="1.5">Java  ·  React  ·  Three.js  ·  DevOps</text>
 </g>
 <g transform="translate(72 300)">
   <rect x="0" y="0" width="320" height="46" rx="8" fill="{('#ffffff' if light else '#061018')}" fill-opacity="{0.7 if light else 0.85}" stroke="{accent}" stroke-opacity=".35"/>
   <text class="m" x="16" y="19" fill="{accent}" font-size="11">~/universe</text>
-  <text class="m" x="16" y="36" fill="{title}" font-size="12">$ boot --identity subrata-code <tspan fill="{CYAN}">█<animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+  <text class="m" x="16" y="36" fill="{title}" font-size="12">$ boot --identity {github_username} <tspan fill="{CYAN}">█<animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
 </g>
 <rect class="scan" x="0" y="0" width="{w}" height="2" fill="{accent}" opacity=".25"/>
 '''
@@ -173,6 +188,14 @@ def hero(light=False):
 
 
 def profile_card(light=False):
+    profile = load_profile()
+    identity = profile.get("identity", {})
+    name = str(identity.get("name", "Subrata Bag")).upper()
+    headline = str(identity.get("headline", "Creative Developer")).upper()
+    education = identity.get("education", "B.Tech Computer Science & Engineering")
+    graduation = identity.get("graduation", "2027")
+    github_username = identity.get("github_username", "subrata-code")
+
     w, h = 720, 340
     bg = "#f4f7ff" if light else BG
     title = "#0b1220" if light else TEXT
@@ -185,9 +208,9 @@ def profile_card(light=False):
 {stars(18, w, h, 21)}
 <rect x="0" y="0" width="8" height="{h}" rx="4" fill="url(#gNeon)"/>
 <text class="m" x="36" y="36" fill="{CYAN}" font-size="10" letter-spacing="3">ID // CREATIVE.DEV</text>
-<text class="t" x="36" y="78" fill="{title}" font-size="28" font-weight="700">SUBRATA BAG</text>
-<text class="t" x="36" y="106" fill="{sub}" font-size="14">B.Tech Computer Science &amp; Engineering  ·  2027</text>
-<text class="t" x="36" y="132" fill="{ELEC}" font-size="13" letter-spacing="2.2">CREATIVE DEVELOPER</text>
+<text class="t" x="36" y="78" fill="{title}" font-size="28" font-weight="700">{name}</text>
+<text class="t" x="36" y="106" fill="{sub}" font-size="14">{education}  ·  {graduation}</text>
+<text class="t" x="36" y="132" fill="{ELEC}" font-size="13" letter-spacing="2.2">{headline}</text>
 <g transform="translate(36 160)">
   {chip(0, 0, "Three.js / R3F Intern")}
   {chip(214, 0, "Java / DSA")}
@@ -198,7 +221,7 @@ def profile_card(light=False):
   <rect width="648" height="86" rx="10" fill="{('#e8eefc' if light else '#07101c')}" stroke="{stroke}"/>
   <text class="m" x="18" y="28" fill="{CYAN}" font-size="11">STATUS</text>
   <text class="t" x="18" y="52" fill="{title}" font-size="14">Building immersive 3D web interfaces while training DSA and DevOps.</text>
-  <text class="m" x="18" y="74" fill="{DIM}" font-size="11">CLEARANCE  ·  PUBLIC  ·  NODE subrata-code</text>
+  <text class="m" x="18" y="74" fill="{DIM}" font-size="11">CLEARANCE  ·  PUBLIC  ·  NODE {github_username}</text>
 </g>
 <circle cx="640" cy="64" r="28" fill="none" stroke="url(#gNeon)" stroke-width="2"/>
 <circle cx="640" cy="64" r="10" fill="{CYAN}" class="pulse"/>
@@ -261,8 +284,28 @@ def bar(x, y, w, label, value_note, fill_w):
 
 
 def mission():
+    profile = load_profile()
+    mission_cfg = profile.get("mission", {})
+    widths = [
+        ("DSA", mission_cfg.get("dsa", {}).get("label", "PRIMARY"), mission_cfg.get("dsa", {}).get("bar", 168)),
+        ("3D WEB", mission_cfg.get("3d_web", {}).get("label", "ACTIVE"), mission_cfg.get("3d_web", {}).get("bar", 150)),
+        ("DEVOPS", mission_cfg.get("devops", {}).get("label", "BUILDING"), mission_cfg.get("devops", {}).get("bar", 110)),
+        ("FULL STACK", mission_cfg.get("full_stack", {}).get("label", "ACTIVE"), mission_cfg.get("full_stack", {}).get("bar", 140)),
+        ("OPEN SOURCE", mission_cfg.get("open_source", {}).get("label", "SIGNAL"), mission_cfg.get("open_source", {}).get("bar", 96)),
+    ]
+
     # progress is visual/editorial, labeled as FOCUS not %, using bars that are clearly relative focus
     w, h = 1100, 300
+    rows = "\n".join(
+        [
+            f'{bar(40, 130 + i * 48, 210, name, label, value)}'
+            for i, (name, label, value) in enumerate(widths[:3])
+        ]
+        + [
+            f'{bar(300, 130 + (i - 3) * 48, 210, name, label, value)}'
+            for i, (name, label, value) in enumerate(widths[3:], start=3)
+        ]
+    )
     body = f'''
 <rect width="{w}" height="{h}" rx="16" fill="{BG}"/>
 <rect x="1" y="1" width="{w-2}" height="{h-2}" rx="15" fill="#070e1a" stroke="{LINE}"/>
@@ -271,11 +314,7 @@ def mission():
 <text class="t" x="40" y="72" fill="{TEXT}" font-size="22" font-weight="700">Current mission</text>
 <text class="t" x="40" y="98" fill="{DIM}" font-size="12">Bars show relative focus, not measured skill. Edit widths in assets/sections/mission.svg</text>
 <!-- EDIT: inner bar width max 210. Labels are focus, not skill %. -->
-{bar(40, 130, 210, "DSA", "PRIMARY", 168)}
-{bar(40, 178, 210, "3D WEB", "ACTIVE", 150)}
-{bar(40, 226, 210, "DEVOPS", "BUILDING", 110)}
-{bar(300, 130, 210, "FULL STACK", "ACTIVE", 140)}
-{bar(300, 178, 210, "OPEN SOURCE", "SIGNAL", 96)}
+{rows}
 <!-- radar -->
 <g transform="translate(860 168)">
   <circle r="92" fill="none" stroke="{LINE}"/>
@@ -420,6 +459,11 @@ def connect():
 
 
 def footer(light=False):
+    profile = load_profile()
+    identity = profile.get("identity", {})
+    name = str(identity.get("name", "Subrata Bag")).upper()
+    github_username = identity.get("github_username", "subrata-code")
+
     w, h = 1100, 160
     fill = "url(#gSkyLight)" if light else "url(#gSky)"
     title = "#0b1220" if light else TEXT
@@ -428,7 +472,7 @@ def footer(light=False):
 {stars(36, w, h, 19)}
 <ellipse cx="550" cy="200" rx="280" ry="70" fill="url(#gGlow)" opacity=".5"/>
 <text class="t" x="550" y="78" text-anchor="middle" fill="{title}" font-size="20" font-weight="600">Thanks for exploring my digital universe.</text>
-<text class="m" x="550" y="108" text-anchor="middle" fill="{CYAN}" font-size="11" letter-spacing="3">SUBRATA BAG  ·  subrata-code</text>
+<text class="m" x="550" y="108" text-anchor="middle" fill="{CYAN}" font-size="11" letter-spacing="3">{name}  ·  {github_username}</text>
 '''
     return svg(w, h, body)
 
@@ -495,7 +539,52 @@ def icon(name, glyph_path):
 '''
 
 
+def project_cards_from_config():
+    profile = load_profile()
+    projects = profile.get("projects", {})
+    return {
+        "rivo": {
+            "title": projects.get("rivo", {}).get("title", "Rivo"),
+            "kicker": "FEATURED  ·  LIVE LOCATION",
+            "lines": [
+                "Group riding with shared live location",
+                "and assistance alerts when a rider needs help.",
+            ],
+            "repo": projects.get("rivo", {}).get("url", "github.com/subrata-code/Rivo"),
+        },
+        "portfolio": {
+            "title": projects.get("portfolio", {}).get("title", "Personal Portfolio"),
+            "kicker": "ORBIT  ·  IDENTITY",
+            "lines": [
+                "Personal site for experiments, 3D work,",
+                "and a public record of the digital universe.",
+            ],
+            "repo": projects.get("portfolio", {}).get("url", "github.com/subrata-code/subrata-s-portfolio"),
+        },
+        "devops": {
+            "title": projects.get("future_devops", {}).get("title", "Future DevOps Project"),
+            "kicker": "QUEUED  ·  PIPELINE",
+            "lines": [
+                "Reserved slot for a CI/CD, containers,",
+                "and cloud automation project.",
+            ],
+            "repo": projects.get("future_devops", {}).get("url", "EDIT_ME_IN_README"),
+        },
+        "dsa": {
+            "title": projects.get("future_dsa", {}).get("title", "Future Java / DSA Project"),
+            "kicker": "QUEUED  ·  ALGORITHMS",
+            "lines": [
+                "Reserved slot for a Java DSA system,",
+                "visualizer, or problem-set archive.",
+            ],
+            "repo": projects.get("future_dsa", {}).get("url", "EDIT_ME_IN_README"),
+        },
+    }
+
+
 def main():
+    profile = load_profile()
+    projects = project_cards_from_config()
     write("assets/hero/hero.svg", hero(False))
     write("assets/hero/hero-light.svg", hero(True))
     write("assets/cards/profile-card.svg", profile_card(False))
@@ -511,49 +600,37 @@ def main():
     write(
         "assets/cards/project-rivo.svg",
         project_card(
-            "Rivo",
-            "FEATURED  ·  LIVE LOCATION",
-            [
-                "Group riding with shared live location",
-                "and assistance alerts when a rider needs help.",
-            ],
-            "repo  ·  github.com/subrata-code/Rivo",
+            projects["rivo"]["title"],
+            projects["rivo"]["kicker"],
+            projects["rivo"]["lines"],
+            f"repo  ·  {projects['rivo']['repo']}",
         ),
     )
     write(
         "assets/cards/project-portfolio.svg",
         project_card(
-            "Personal Portfolio",
-            "ORBIT  ·  IDENTITY",
-            [
-                "Personal site for experiments, 3D work,",
-                "and a public record of the digital universe.",
-            ],
-            "repo  ·  github.com/subrata-code/subrata-s-portfolio",
+            projects["portfolio"]["title"],
+            projects["portfolio"]["kicker"],
+            projects["portfolio"]["lines"],
+            f"repo  ·  {projects['portfolio']['repo']}",
         ),
     )
     write(
         "assets/cards/project-devops.svg",
         project_card(
-            "Future DevOps Project",
-            "QUEUED  ·  PIPELINE",
-            [
-                "Reserved slot for a CI/CD, containers,",
-                "and cloud automation project.",
-            ],
-            "url  ·  EDIT_ME_IN_README",
+            projects["devops"]["title"],
+            projects["devops"]["kicker"],
+            projects["devops"]["lines"],
+            f"url  ·  {projects['devops']['repo']}",
         ),
     )
     write(
         "assets/cards/project-dsa.svg",
         project_card(
-            "Future Java / DSA Project",
-            "QUEUED  ·  ALGORITHMS",
-            [
-                "Reserved slot for a Java DSA system,",
-                "visualizer, or problem-set archive.",
-            ],
-            "url  ·  EDIT_ME_IN_README",
+            projects["dsa"]["title"],
+            projects["dsa"]["kicker"],
+            projects["dsa"]["lines"],
+            f"url  ·  {projects['dsa']['repo']}",
         ),
     )
     write("assets/footer/footer.svg", footer(False))
