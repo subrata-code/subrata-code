@@ -9,10 +9,10 @@ identity:
   name: "Subrata Bag"
   github_username: "subrata-code"   # used by GitHub stats cards
   headline: "Creative Developer"
-  role: "Three.js / React Three Fiber Developer Intern"
+  role: "Ex-intern Three.js / React Three Fiber Developer at Azmth"
   education: "B.Tech Computer Science & Engineering"
   graduation: "2027"
-  location: ""                       # optional, leave blank if unused
+  location: "KOLAGHAT, WEST BENGAL, INDIA"                       # optional, leave blank if unused
 
 focus:
   - Java
@@ -35,9 +35,9 @@ mission:
 
 projects:
   rivo:
-    title: "Rivo"
-    url: "https://github.com/subrata-code/Rivo"   # edit if the repo moves
-    blurb: "Group riding with live location sharing and assistance alerts."
+    title: "AlgoMaster"
+    url: "https://github.com/subrata-code/AlgoMaster"   # edit if the repo moves
+    blurb: "Real Developer needs advance dsa prep destination and i introduce for them to AlgoMaster."
   portfolio:
     title: "Personal Portfolio"
     url: "https://github.com/subrata-code/subrata-s-portfolio"
@@ -53,9 +53,9 @@ projects:
 social:
   github: "https://github.com/subrata-code"
   linkedin: "https://www.linkedin.com/in/subrata-bag-547091293/"
-  portfolio: "https://subrata-code.github.io/subrata-s-portfolio/"
+  portfolio: "https://subrata-s-portfolio.vercel.app/"
   leetcode: "https://leetcode.com/u/subrata2005/"  # insights card uses username subrata2005
-  instagram: "EDIT_ME"
+  instagram: "https://www.instagram.com/1_try_to_understand/"
   geeksforgeeks: "EDIT_ME"
 
 theme:
@@ -68,7 +68,7 @@ theme:
 
 # Achievements: only list items that are real. Locked slots stay empty.
 achievements:
-  - { slot: 1, label: "ACTIVE ROLE", value: "Three.js / R3F Intern" }
-  - { slot: 2, label: "PUBLIC NODE", value: "GitHub · subrata-code" }
+  - { slot: 1, label: "EX INTERN", value: "Three.js / R3F Intern" }
+  - { slot: 2, label: "LOCKED", value: "Hacktoberfest · super contributor" }
   - { slot: 3, label: "LOCKED", value: "Awaiting signal" }
   - { slot: 4, label: "LOCKED", value: "Awaiting signal" }

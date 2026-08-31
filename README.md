@@ -79,32 +79,12 @@ I build immersive web experiences, practice DSA with Java, explore DevOps and cl
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=subrata-code&show_icons=true&hide_border=true&bg_color=e8f0ff&title_color=1d4ed8&icon_color=7c3aed&text_color=0f172a&ring_color=3b82f6" />
-    <img src="https://github-readme-stats.vercel.app/api?username=subrata-code&show_icons=true&hide_border=true&bg_color=05070d&title_color=22d3ee&icon_color=60a5fa&text_color=e8eefc&ring_color=8b5cf6" alt="GitHub stats" width="48%" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=subrata-code&layout=compact&hide_border=true&bg_color=e8f0ff&title_color=1d4ed8&text_color=0f172a" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subrata-code&layout=compact&hide_border=true&bg_color=05070d&title_color=22d3ee&text_color=e8eefc" alt="Top languages" width="48%" />
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=subrata-code&hide_border=true&background=e8f0ff&stroke=93c5fd&ring=3b82f6&fire=7c3aed&currStreakLabel=1d4ed8&sideLabels=334155&currStreakNum=0f172a&sideNums=334155&dates=64748b" />
     <img src="https://streak-stats.demolab.com?user=subrata-code&hide_border=true&background=05070d&stroke=1a2a48&ring=22d3ee&fire=8b5cf6&currStreakLabel=22d3ee&sideLabels=8b9cc8&currStreakNum=e8eefc&sideNums=8b9cc8&dates=5b6b8c" alt="Contribution streak" width="70%" />
   </picture>
 </div>
 
 <br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=subrata-code&bg_color=e8f0ff&color=1d4ed8&line=7c3aed&point=3b82f6&area=true&area_color=93c5fd&hide_border=true&custom_title=Contribution%20activity" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=subrata-code&bg_color=05070d&color=22d3ee&line=8b5cf6&point=60a5fa&area=true&area_color=0d1b36&hide_border=true&custom_title=Contribution%20activity" alt="Contribution activity" width="100%" />
-  </picture>
-</div>
 
 <p align="center">
   <img src="./assets/dividers/orbit.svg" alt="" width="100%" />
