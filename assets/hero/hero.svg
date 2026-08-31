@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img">
+<defs>
+  <linearGradient id="gSky" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#05070d"/>
+    <stop offset="45%" stop-color="#0a1428"/>
+    <stop offset="100%" stop-color="#0c1834"/>
+  </linearGradient>
+  <linearGradient id="gSkyLight" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e8f0ff"/>
+    <stop offset="50%" stop-color="#d5e4fb"/>
+    <stop offset="100%" stop-color="#c9d8f5"/>
+  </linearGradient>
+  <linearGradient id="gNeon" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#22d3ee"/>
+    <stop offset="50%" stop-color="#3b82f6"/>
+    <stop offset="100%" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <linearGradient id="gCore" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#67e8f9"/>
+    <stop offset="50%" stop-color="#3b82f6"/>
+    <stop offset="100%" stop-color="#7c3aed"/>
+  </linearGradient>
+  <radialGradient id="gGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55"/>
+    <stop offset="40%" stop-color="#3b82f6" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#05070d" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="pGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#22d3ee" stroke-width="0.45"/>
+  </pattern>
+</defs>
+<style>
+  .t { font-family: Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif; }
+  .m { font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
+  .pulse { animation: pulse 4s ease-in-out infinite; }
+  .spin { animation: spin 28s linear infinite; transform-origin: center; }
+  .spinr { animation: spinr 42s linear infinite; transform-origin: center; }
+  .tw { animation: tw 3.2s ease-in-out infinite; }
+  .scan { animation: scan 6s linear infinite; }
+  .blink { animation: blink 1.4s steps(2) infinite; }
+  @keyframes pulse { 0%,100% { opacity:.7 } 50% { opacity:1 } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes spinr { to { transform: rotate(-360deg); } }
+  @keyframes tw { 0%,100% { opacity:.25 } 50% { opacity:1 } }
+  @keyframes scan { 0% { transform: translateY(-20px); opacity:0 } 10% { opacity:.35 } 100% { transform: translateY(420px); opacity:0 } }
+  @keyframes blink { 50% { opacity:0 } }
+  
+</style>
+
+<rect width="1200" height="380" fill="url(#gSky)"/>
+<rect width="1200" height="380" fill="url(#pGrid)" opacity="0.07"/>
+<g id="stars">
+<circle class="tw" cx="1015" cy="269" r="0.40" fill="#22d3ee" opacity="0.25" style="animation-delay:0.0s"/>
+<circle class="tw" cx="340" cy="32" r="0.62" fill="#cfe8ff" opacity="0.35" style="animation-delay:0.28s"/>
+<circle class="tw" cx="949" cy="91" r="0.84" fill="#cfe8ff" opacity="0.45" style="animation-delay:0.56s"/>
+<circle class="tw" cx="682" cy="62" r="1.06" fill="#60a5fa" opacity="0.55" style="animation-delay:0.8400000000000001s"/>
+<circle class="tw" cx="711" cy="89" r="1.28" fill="#cfe8ff" opacity="0.65" style="animation-delay:1.12s"/>
+<circle class="tw" cx="16" cy="280" r="0.40" fill="#22d3ee" opacity="0.75" style="animation-delay:1.4000000000000001s"/>
+<circle class="tw" cx="873" cy="87" r="0.62" fill="#60a5fa" opacity="0.85" style="animation-delay:1.6800000000000002s"/>
+<circle class="tw" cx="522" cy="18" r="0.84" fill="#cfe8ff" opacity="0.25" style="animation-delay:1.9600000000000002s"/>
+<circle class="tw" cx="919" cy="253" r="1.06" fill="#cfe8ff" opacity="0.35" style="animation-delay:2.24s"/>
+<circle class="tw" cx="880" cy="136" r="1.28" fill="#60a5fa" opacity="0.45" style="animation-delay:2.5200000000000005s"/>
+<circle class="tw" cx="313" cy="131" r="0.40" fill="#22d3ee" opacity="0.55" style="animation-delay:2.8000000000000003s"/>
+<circle class="tw" cx="70" cy="14" r="0.62" fill="#cfe8ff" opacity="0.65" style="animation-delay:0.0s"/>
+<circle class="tw" cx="1043" cy="153" r="0.84" fill="#60a5fa" opacity="0.75" style="animation-delay:0.28s"/>
+<circle class="tw" cx="908" cy="144" r="1.06" fill="#cfe8ff" opacity="0.85" style="animation-delay:0.56s"/>
+<circle class="tw" cx="129" cy="183" r="1.28" fill="#cfe8ff" opacity="0.25" style="animation-delay:0.8400000000000001s"/>
+<circle class="tw" cx="1118" cy="198" r="0.40" fill="#22d3ee" opacity="0.35" style="animation-delay:1.12s"/>
+<circle class="tw" cx="1023" cy="65" r="0.62" fill="#cfe8ff" opacity="0.45" style="animation-delay:1.4000000000000001s"/>
+<circle class="tw" cx="196" cy="332" r="0.84" fill="#cfe8ff" opacity="0.55" style="animation-delay:1.6800000000000002s"/>
+<circle class="tw" cx="441" cy="327" r="1.06" fill="#60a5fa" opacity="0.65" style="animation-delay:1.9600000000000002s"/>
+<circle class="tw" cx="430" cy="334" r="1.28" fill="#cfe8ff" opacity="0.75" style="animation-delay:2.24s"/>
+<circle class="tw" cx="619" cy="293" r="0.40" fill="#22d3ee" opacity="0.85" style="animation-delay:2.5200000000000005s"/>
+<circle class="tw" cx="1028" cy="352" r="0.62" fill="#60a5fa" opacity="0.25" style="animation-delay:2.8000000000000003s"/>
+<circle class="tw" cx="13" cy="139" r="0.84" fill="#cfe8ff" opacity="0.35" style="animation-delay:0.0s"/>
+<circle class="tw" cx="1082" cy="298" r="1.06" fill="#cfe8ff" opacity="0.45" style="animation-delay:0.28s"/>
+<circle class="tw" cx="107" cy="333" r="1.28" fill="#60a5fa" opacity="0.55" style="animation-delay:0.56s"/>
+<circle class="tw" cx="404" cy="140" r="0.40" fill="#22d3ee" opacity="0.65" style="animation-delay:0.8400000000000001s"/>
+<circle class="tw" cx="373" cy="79" r="0.62" fill="#cfe8ff" opacity="0.75" style="animation-delay:1.12s"/>
+<circle class="tw" cx="230" cy="54" r="0.84" fill="#60a5fa" opacity="0.85" style="animation-delay:1.4000000000000001s"/>
+<circle class="tw" cx="1079" cy="13" r="1.06" fill="#cfe8ff" opacity="0.25" style="animation-delay:1.6800000000000002s"/>
+<circle class="tw" cx="140" cy="156" r="1.28" fill="#cfe8ff" opacity="0.35" style="animation-delay:1.9600000000000002s"/>
+<circle class="tw" cx="621" cy="307" r="0.40" fill="#22d3ee" opacity="0.45" style="animation-delay:2.24s"/>
+<circle class="tw" cx="934" cy="38" r="0.62" fill="#cfe8ff" opacity="0.55" style="animation-delay:2.5200000000000005s"/>
+<circle class="tw" cx="983" cy="341" r="0.84" fill="#cfe8ff" opacity="0.65" style="animation-delay:2.8000000000000003s"/>
+<circle class="tw" cx="784" cy="80" r="1.06" fill="#60a5fa" opacity="0.75" style="animation-delay:0.0s"/>
+<circle class="tw" cx="705" cy="55" r="1.28" fill="#cfe8ff" opacity="0.85" style="animation-delay:0.28s"/>
+<circle class="tw" cx="58" cy="270" r="0.40" fill="#22d3ee" opacity="0.25" style="animation-delay:0.56s"/>
+<circle class="tw" cx="787" cy="65" r="0.62" fill="#60a5fa" opacity="0.35" style="animation-delay:0.8400000000000001s"/>
+<circle class="tw" cx="780" cy="196" r="0.84" fill="#cfe8ff" opacity="0.45" style="animation-delay:1.12s"/>
+<circle class="tw" cx="13" cy="59" r="1.06" fill="#cfe8ff" opacity="0.55" style="animation-delay:1.4000000000000001s"/>
+<circle class="tw" cx="606" cy="234" r="1.28" fill="#60a5fa" opacity="0.65" style="animation-delay:1.6800000000000002s"/>
+<circle class="tw" cx="807" cy="337" r="0.40" fill="#22d3ee" opacity="0.75" style="animation-delay:1.9600000000000002s"/>
+<circle class="tw" cx="244" cy="348" r="0.62" fill="#cfe8ff" opacity="0.85" style="animation-delay:2.24s"/>
+<circle class="tw" cx="433" cy="311" r="0.84" fill="#60a5fa" opacity="0.25" style="animation-delay:2.5200000000000005s"/>
+<circle class="tw" cx="758" cy="10" r="1.06" fill="#cfe8ff" opacity="0.35" style="animation-delay:2.8000000000000003s"/>
+<circle class="tw" cx="543" cy="309" r="1.28" fill="#cfe8ff" opacity="0.45" style="animation-delay:0.0s"/>
+<circle class="tw" cx="816" cy="168" r="0.40" fill="#22d3ee" opacity="0.55" style="animation-delay:0.28s"/>
+<circle class="tw" cx="1117" cy="367" r="0.62" fill="#cfe8ff" opacity="0.65" style="animation-delay:0.56s"/>
+<circle class="tw" cx="338" cy="310" r="0.84" fill="#cfe8ff" opacity="0.75" style="animation-delay:0.8400000000000001s"/>
+<circle class="tw" cx="411" cy="21" r="1.06" fill="#60a5fa" opacity="0.85" style="animation-delay:1.12s"/>
+<circle class="tw" cx="220" cy="260" r="1.28" fill="#cfe8ff" opacity="0.25" style="animation-delay:1.4000000000000001s"/>
+<circle class="tw" cx="265" cy="139" r="0.40" fill="#22d3ee" opacity="0.35" style="animation-delay:1.6800000000000002s"/>
+<circle class="tw" cx="1166" cy="358" r="0.62" fill="#60a5fa" opacity="0.45" style="animation-delay:1.9600000000000002s"/>
+<circle class="tw" cx="971" cy="97" r="0.84" fill="#cfe8ff" opacity="0.55" style="animation-delay:2.24s"/>
+<circle class="tw" cx="156" cy="172" r="1.06" fill="#cfe8ff" opacity="0.65" style="animation-delay:2.5200000000000005s"/>
+<circle class="tw" cx="1093" cy="299" r="1.28" fill="#60a5fa" opacity="0.75" style="animation-delay:2.8000000000000003s"/>
+<circle class="tw" cx="646" cy="258" r="0.40" fill="#22d3ee" opacity="0.85" style="animation-delay:0.0s"/>
+</g>
+<ellipse cx="980" cy="190" rx="220" ry="140" fill="url(#gGlow)" opacity="0.9"/>
+<g transform="translate(980 190)">
+  <circle r="34" fill="url(#gCore)" filter="url(#soft)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="18" fill="#eaf6ff" opacity=".85"/>
+  <g>
+    <ellipse rx="92" ry="28" fill="none" stroke="#22d3ee" stroke-width="1.2" opacity=".7"/>
+    <circle cx="92" cy="0" r="3.2" fill="#22d3ee"/>
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <ellipse rx="118" ry="42" fill="none" stroke="#8b5cf6" stroke-width="1" opacity=".45"/>
+    <circle cx="-70" cy="18" r="2.2" fill="#8b5cf6"/>
+    <animateTransform attributeName="transform" type="rotate" from="28" to="-332" dur="42s" repeatCount="indefinite"/>
+  </g>
+  <ellipse rx="70" ry="70" fill="none" stroke="#60a5fa" stroke-width="0.6" opacity=".35" stroke-dasharray="4 8">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/>
+  </ellipse>
+</g>
+<g opacity=".55" fill="none" stroke="#9ec5ff" stroke-width="1">
+  <rect x="36" y="28" width="86" height="18" rx="2"/>
+  <path d="M36 28 L28 28 L28 48"/>
+  <rect x="1078" y="28" width="86" height="18" rx="2"/>
+  <path d="M1164 28 L1172 28 L1172 48"/>
+  <rect x="36" y="334" width="86" height="18" rx="2"/>
+  <path d="M36 352 L28 352 L28 332"/>
+  <rect x="1078" y="334" width="86" height="18" rx="2"/>
+  <path d="M1164 352 L1172 352 L1172 332"/>
+</g>
+<text class="m" x="48" y="42" fill="#22d3ee" font-size="10" letter-spacing="2.4">SYS // UNIVERSE.01</text>
+<text class="m" x="1040" y="42" fill="#22d3ee" font-size="10" letter-spacing="1.6" text-anchor="end">LAT 22N · NODE SB</text>
+<g transform="translate(72 118)">
+  <text class="t" x="0" y="0" fill="#22d3ee" font-size="13" letter-spacing="6">DIGITAL UNIVERSE</text>
+  <text class="t" x="0" y="62" fill="#e8eefc" font-size="52" font-weight="700" letter-spacing="2.5">SUBRATA BAG</text>
+  <text class="t" x="0" y="100" fill="#8b9cc8" font-size="20" letter-spacing="4.2" font-weight="600">CREATIVE DEVELOPER</text>
+  <rect x="0" y="118" width="220" height="2" fill="url(#gNeon)"/>
+  <text class="m" x="0" y="152" fill="#9ec5ff" font-size="14" letter-spacing="1.5">Java  ·  React  ·  Three.js  ·  DevOps</text>
+</g>
+<g transform="translate(72 300)">
+  <rect x="0" y="0" width="320" height="46" rx="8" fill="#061018" fill-opacity="0.85" stroke="#22d3ee" stroke-opacity=".35"/>
+  <text class="m" x="16" y="19" fill="#22d3ee" font-size="11">~/universe</text>
+  <text class="m" x="16" y="36" fill="#e8eefc" font-size="12">$ boot --identity subrata-code <tspan fill="#22d3ee">█<animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+</g>
+<rect class="scan" x="0" y="0" width="1200" height="2" fill="#22d3ee" opacity=".25"/>
+
+</svg>

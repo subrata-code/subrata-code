@@ -1,0 +1,102 @@
+# =============================================================================
+# SUBRATA — DIGITAL UNIVERSE
+# Source of truth for identity, links, and editorial statuses.
+# GitHub README cannot read this file automatically. After you edit values
+# here, copy the same text into README.md and the matching SVG (paths below).
+# =============================================================================
+
+identity:
+  name: "Subrata Bag"
+  github_username: "subrata-code"   # used by stats + snake
+  headline: "Creative Developer"
+  role: "Three.js / React Three Fiber Developer Intern"
+  education: "B.Tech Computer Science & Engineering"
+  graduation: "2027"
+  location: ""                       # optional, leave blank if unused
+
+focus:
+  - Java
+  - DSA
+  - React
+  - MERN
+  - Three.js
+  - React Three Fiber
+  - DevOps
+  - Creative Web Development
+
+# Relative focus only — not skill percentages. Match assets/sections/mission.svg
+# by changing the bar width (max 210) and the PRIMARY/ACTIVE/BUILDING labels.
+mission:
+  dsa: { label: "PRIMARY", bar: 168 }
+  3d_web: { label: "ACTIVE", bar: 150 }
+  devops: { label: "BUILDING", bar: 110 }
+  full_stack: { label: "ACTIVE", bar: 140 }
+  open_source: { label: "SIGNAL", bar: 96 }
+
+# Statuses: IN PROGRESS | LEARNING | QUEUED  — edit assets/sections/dsa.svg
+dsa_status:
+  Arrays: "IN PROGRESS"
+  Strings: "IN PROGRESS"
+  Hashing: "LEARNING"
+  Two_Pointers: "LEARNING"
+  Sliding_Window: "LEARNING"
+  Linked_List: "QUEUED"
+  Stack: "QUEUED"
+  Queue: "QUEUED"
+  Binary_Search: "QUEUED"
+  Trees: "QUEUED"
+  Graphs: "QUEUED"
+  Dynamic_Programming: "QUEUED"
+
+# STAGE = currently practicing, AHEAD = next. Edit assets/sections/devops.svg
+devops_status:
+  Linux: STAGE
+  Networking: STAGE
+  Git: STAGE
+  Docker: STAGE
+  CI_CD: STAGE
+  GitHub_Actions: AHEAD
+  AWS: AHEAD
+  Kubernetes: AHEAD
+  Terraform: AHEAD
+  Monitoring: AHEAD
+
+projects:
+  rivo:
+    title: "Rivo"
+    url: "https://github.com/subrata-code/Rivo"   # edit if the repo moves
+    blurb: "Group riding with live location sharing and assistance alerts."
+  portfolio:
+    title: "Personal Portfolio"
+    url: "https://github.com/subrata-code/subrata-s-portfolio"
+    live: "https://subrata-code.github.io/subrata-s-portfolio/"
+  future_devops:
+    title: "Future DevOps Project"
+    url: "EDIT_ME"                                # replace with a real repo URL
+  future_dsa:
+    title: "Future Java/DSA Project"
+    url: "EDIT_ME"
+
+# Do not invent URLs. Leave EDIT_ME until you have a real profile.
+social:
+  github: "https://github.com/subrata-code"
+  linkedin: "https://www.linkedin.com/in/subrata-bag-547091293/"
+  portfolio: "https://subrata-code.github.io/subrata-s-portfolio/"
+  leetcode: "https://leetcode.com/u/subrata2005/"
+  instagram: "EDIT_ME"
+  geeksforgeeks: "EDIT_ME"
+
+theme:
+  name: "digital-universe"
+  background: "#05070d"
+  midnight: "#0d1b36"
+  electric: "#60a5fa"
+  violet: "#8b5cf6"
+  cyan: "#22d3ee"
+
+# Achievements: only list items that are real. Locked slots stay empty.
+achievements:
+  - { slot: 1, label: "ACTIVE ROLE", value: "Three.js / R3F Intern" }
+  - { slot: 2, label: "PUBLIC NODE", value: "GitHub · subrata-code" }
+  - { slot: 3, label: "LOCKED", value: "Awaiting signal" }
+  - { slot: 4, label: "LOCKED", value: "Awaiting signal" }

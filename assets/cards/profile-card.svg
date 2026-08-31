@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img">
+<defs>
+  <linearGradient id="gSky" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#05070d"/>
+    <stop offset="45%" stop-color="#0a1428"/>
+    <stop offset="100%" stop-color="#0c1834"/>
+  </linearGradient>
+  <linearGradient id="gSkyLight" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e8f0ff"/>
+    <stop offset="50%" stop-color="#d5e4fb"/>
+    <stop offset="100%" stop-color="#c9d8f5"/>
+  </linearGradient>
+  <linearGradient id="gNeon" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#22d3ee"/>
+    <stop offset="50%" stop-color="#3b82f6"/>
+    <stop offset="100%" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <linearGradient id="gCore" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#67e8f9"/>
+    <stop offset="50%" stop-color="#3b82f6"/>
+    <stop offset="100%" stop-color="#7c3aed"/>
+  </linearGradient>
+  <radialGradient id="gGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55"/>
+    <stop offset="40%" stop-color="#3b82f6" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#05070d" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="pGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#22d3ee" stroke-width="0.45"/>
+  </pattern>
+</defs>
+<style>
+  .t { font-family: Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif; }
+  .m { font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
+  .pulse { animation: pulse 4s ease-in-out infinite; }
+  .spin { animation: spin 28s linear infinite; transform-origin: center; }
+  .spinr { animation: spinr 42s linear infinite; transform-origin: center; }
+  .tw { animation: tw 3.2s ease-in-out infinite; }
+  .scan { animation: scan 6s linear infinite; }
+  .blink { animation: blink 1.4s steps(2) infinite; }
+  @keyframes pulse { 0%,100% { opacity:.7 } 50% { opacity:1 } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes spinr { to { transform: rotate(-360deg); } }
+  @keyframes tw { 0%,100% { opacity:.25 } 50% { opacity:1 } }
+  @keyframes scan { 0% { transform: translateY(-20px); opacity:0 } 10% { opacity:.35 } 100% { transform: translateY(420px); opacity:0 } }
+  @keyframes blink { 50% { opacity:0 } }
+  
+</style>
+
+<rect width="720" height="340" rx="18" fill="#05070d"/>
+<rect x="1" y="1" width="718" height="338" rx="17" fill="#0b1528" stroke="url(#gNeon)" stroke-width="1.2"/>
+<g id="stars">
+<circle class="tw" cx="423" cy="313" r="0.40" fill="#22d3ee" opacity="0.25" style="animation-delay:0.0s"/>
+<circle class="tw" cx="512" cy="252" r="0.62" fill="#cfe8ff" opacity="0.35" style="animation-delay:0.28s"/>
+<circle class="tw" cx="77" cy="183" r="0.84" fill="#cfe8ff" opacity="0.45" style="animation-delay:0.56s"/>
+<circle class="tw" cx="354" cy="202" r="1.06" fill="#60a5fa" opacity="0.55" style="animation-delay:0.8400000000000001s"/>
+<circle class="tw" cx="47" cy="237" r="1.28" fill="#cfe8ff" opacity="0.65" style="animation-delay:1.12s"/>
+<circle class="tw" cx="700" cy="304" r="0.40" fill="#22d3ee" opacity="0.75" style="animation-delay:1.4000000000000001s"/>
+<circle class="tw" cx="553" cy="115" r="0.62" fill="#60a5fa" opacity="0.85" style="animation-delay:1.6800000000000002s"/>
+<circle class="tw" cx="62" cy="162" r="0.84" fill="#cfe8ff" opacity="0.25" style="animation-delay:1.9600000000000002s"/>
+<circle class="tw" cx="623" cy="241" r="1.06" fill="#cfe8ff" opacity="0.35" style="animation-delay:2.24s"/>
+<circle class="tw" cx="244" cy="320" r="1.28" fill="#60a5fa" opacity="0.45" style="animation-delay:2.5200000000000005s"/>
+<circle class="tw" cx="177" cy="203" r="0.40" fill="#22d3ee" opacity="0.55" style="animation-delay:2.8000000000000003s"/>
+<circle class="tw" cx="10" cy="170" r="0.62" fill="#cfe8ff" opacity="0.65" style="animation-delay:0.0s"/>
+<circle class="tw" cx="171" cy="9" r="0.84" fill="#60a5fa" opacity="0.75" style="animation-delay:0.28s"/>
+<circle class="tw" cx="332" cy="296" r="1.06" fill="#cfe8ff" opacity="0.85" style="animation-delay:0.56s"/>
+<circle class="tw" cx="497" cy="215" r="1.28" fill="#cfe8ff" opacity="0.25" style="animation-delay:0.8400000000000001s"/>
+<circle class="tw" cx="386" cy="198" r="0.40" fill="#22d3ee" opacity="0.35" style="animation-delay:1.12s"/>
+<circle class="tw" cx="647" cy="185" r="0.62" fill="#cfe8ff" opacity="0.45" style="animation-delay:1.4000000000000001s"/>
+<circle class="tw" cx="76" cy="220" r="0.84" fill="#cfe8ff" opacity="0.55" style="animation-delay:1.6800000000000002s"/>
+</g>
+<rect x="0" y="0" width="8" height="340" rx="4" fill="url(#gNeon)"/>
+<text class="m" x="36" y="36" fill="#22d3ee" font-size="10" letter-spacing="3">ID // CREATIVE.DEV</text>
+<text class="t" x="36" y="78" fill="#e8eefc" font-size="28" font-weight="700">SUBRATA BAG</text>
+<text class="t" x="36" y="106" fill="#8b9cc8" font-size="14">B.Tech Computer Science &amp; Engineering  ·  2027</text>
+<text class="t" x="36" y="132" fill="#60a5fa" font-size="13" letter-spacing="2.2">CREATIVE DEVELOPER</text>
+<g transform="translate(36 160)">
+  <g transform="translate(0 0)">
+  <rect width="161" height="28" rx="6" fill="#0d1b36" stroke="#2a4a78"/>
+  <circle cx="12" cy="14" r="3" fill="#22d3ee"/>
+  <text class="m" x="22" y="18" fill="#e8eefc" font-size="11">Three.js / R3F Intern</text>
+</g>
+  <g transform="translate(214 0)">
+  <rect width="83" height="28" rx="6" fill="#0d1b36" stroke="#2a4a78"/>
+  <circle cx="12" cy="14" r="3" fill="#22d3ee"/>
+  <text class="m" x="22" y="18" fill="#e8eefc" font-size="11">Java / DSA</text>
+</g>
+  <g transform="translate(332 0)">
+  <rect width="55" height="28" rx="6" fill="#0d1b36" stroke="#2a4a78"/>
+  <circle cx="12" cy="14" r="3" fill="#22d3ee"/>
+  <text class="m" x="22" y="18" fill="#e8eefc" font-size="11">DevOps</text>
+</g>
+  <g transform="translate(428 0)">
+  <rect width="40" height="28" rx="6" fill="#0d1b36" stroke="#2a4a78"/>
+  <circle cx="12" cy="14" r="3" fill="#22d3ee"/>
+  <text class="m" x="22" y="18" fill="#e8eefc" font-size="11">MERN</text>
+</g>
+</g>
+<g transform="translate(36 220)">
+  <rect width="648" height="86" rx="10" fill="#07101c" stroke="#1a2a48"/>
+  <text class="m" x="18" y="28" fill="#22d3ee" font-size="11">STATUS</text>
+  <text class="t" x="18" y="52" fill="#e8eefc" font-size="14">Building immersive 3D web interfaces while training DSA and DevOps.</text>
+  <text class="m" x="18" y="74" fill="#5b6b8c" font-size="11">CLEARANCE  ·  PUBLIC  ·  NODE subrata-code</text>
+</g>
+<circle cx="640" cy="64" r="28" fill="none" stroke="url(#gNeon)" stroke-width="2"/>
+<circle cx="640" cy="64" r="10" fill="#22d3ee" class="pulse"/>
+
+</svg>
