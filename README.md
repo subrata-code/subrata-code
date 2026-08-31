@@ -1,4 +1,4 @@
-<![CDATA[<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
+<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║  ✦  S U B R A T A ' S   G A L A X Y   R E A D M E  ✦               ║ -->
 <!-- ║  🌌 Crafted with cosmic energy & infinite passion                     ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
@@ -101,45 +101,32 @@ const subrata = {
 
 <br/>
 
-### 🎨 Frontend Sorcery
+### 🎨 Frontend & Languages
 <p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,threejs&theme=dark" alt="Frontend Skills" />
+  </a>
 </p>
 
-### ⚙️ Backend Mastery
+### ⚙️ Backend & Runtime
 <p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs,express,python,java,c,flask&theme=dark" alt="Backend Skills" />
+  </a>
 </p>
 
 ### 🗄️ Database & Cloud
 <p>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,vercel,netlify&theme=dark" alt="Database Skills" />
+  </a>
 </p>
 
 ### 🧰 Tools & Platforms
 <p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,linux,docker&theme=dark" alt="Tools" />
+  </a>
 </p>
 
 </div>
@@ -166,28 +153,28 @@ const subrata = {
 <br/>
 
 <!-- GitHub Stats Card -->
-<a href="https://github.com/subrata-code">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=subrata-code&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9&ring_color=8b5cf6&count_private=true&include_all_commits=true" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=subrata-code&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9&ring_color=8b5cf6&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-</a>
+</picture>
 &nbsp;
 <!-- Top Languages -->
-<a href="https://github.com/subrata-code">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=subrata-code&layout=compact&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&text_color=c9d1d9&langs_count=10" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=subrata-code&layout=compact&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&text_color=c9d1d9&langs_count=10" alt="Top Languages" />
-</a>
+</picture>
 
 <br/><br/>
 
 <!-- GitHub Streak -->
-<a href="https://github.com/subrata-code">
-  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=subrata-code&theme=radical&background=0d1117&hide_border=true&stroke=6366f1&ring=a855f7&fire=ec4899&currStreakLabel=a855f7&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=c9d1d9&dates=6366f1" alt="GitHub Streak" />
+<a href="https://git.io/streak-stats">
+  <img width="70%" src="https://streak-stats.demolab.com?user=subrata-code&theme=radical&background=0d1117&hide_border=true&stroke=6366f1&ring=a855f7&fire=ec4899&currStreakLabel=a855f7&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=c9d1d9&dates=6366f1" alt="GitHub Streak" />
 </a>
 
 <br/><br/>
 
 <!-- Activity Graph -->
-<a href="https://github.com/subrata-code">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=subrata-code&bg_color=0d1117&color=a855f7&line=ec4899&point=8b5cf6&area=true&area_color=6366f1&hide_border=true&custom_title=✨%20Subrata's%20Contribution%20Galaxy" alt="Activity Graph" />
-</a>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=subrata-code&bg_color=0d1117&color=a855f7&line=ec4899&point=8b5cf6&area=true&area_color=6366f1&hide_border=true&custom_title=✨%20Subrata's%20Contribution%20Galaxy" alt="Activity Graph" />
 
 </div>
 
@@ -219,10 +206,6 @@ const subrata = {
 <br/><br/>
 
 <a href="https://leetcode.com/u/subrata2005/">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=0d1117&color=6366f1&label=🏆%20Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fsubrata2005&logo=leetcode&logoColor=ffa116" alt="LeetCode Solved" />
-</a>
-&nbsp;
-<a href="https://leetcode.com/u/subrata2005/">
   <img src="https://img.shields.io/badge/🧠_LeetCode-subrata2005-ffa116?style=for-the-badge&labelColor=0d1117&logo=leetcode" alt="LeetCode Profile" />
 </a>
 &nbsp;
@@ -253,9 +236,7 @@ const subrata = {
 
 <br/>
 
-<a href="https://github.com/subrata-code">
-  <img src="https://github-profile-trophy.vercel.app/?username=subrata-code&theme=radical&no-bg=true&no-frame=true&column=7&margin-w=10&margin-h=10" alt="Trophies" />
-</a>
+<img src="https://github-profile-trophy.vercel.app/?username=subrata-code&theme=radical&no-bg=true&no-frame=true&column=7&margin-w=10&margin-h=10" alt="Trophies" />
 
 </div>
 
@@ -281,31 +262,31 @@ const subrata = {
 <br/>
 
 <a href="https://github.com/subrata-code/Rivo">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=Rivo&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="Rivo" />
+  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=Rivo&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="Rivo" />
 </a>
-&nbsp;
+&nbsp;&nbsp;
 <a href="https://github.com/subrata-code/Dsa-Journey">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=Dsa-Journey&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="DSA Journey" />
+  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=Dsa-Journey&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="DSA Journey" />
 </a>
 
-<br/><br/>
+<br/>
 
 <a href="https://github.com/subrata-code/AlgoMaster">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=AlgoMaster&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="AlgoMaster" />
+  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=AlgoMaster&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="AlgoMaster" />
 </a>
-&nbsp;
+&nbsp;&nbsp;
 <a href="https://github.com/subrata-code/subrata-s-portfolio">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=subrata-s-portfolio&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="Portfolio" />
+  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=subrata-s-portfolio&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="Portfolio" />
 </a>
 
-<br/><br/>
+<br/>
 
 <a href="https://github.com/subrata-code/CollegeStar">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=CollegeStar&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="CollegeStar" />
+  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=CollegeStar&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="CollegeStar" />
 </a>
-&nbsp;
+&nbsp;&nbsp;
 <a href="https://github.com/subrata-code/Sky_War-2.0">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=Sky_War-2.0&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="Sky War" />
+  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=subrata-code&repo=Sky_War-2.0&theme=radical&bg_color=0d1117&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9" alt="Sky War" />
 </a>
 
 </div>
@@ -332,9 +313,9 @@ const subrata = {
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/subrata-code/subrata-code/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/subrata-code/subrata-code/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/subrata-code/subrata-code/output/github-snake-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/subrata-code/subrata-code/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/subrata-code/subrata-code/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/subrata-code/subrata-code/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </picture>
 
 </div>
@@ -424,12 +405,12 @@ const subrata = {
   <img src="https://img.shields.io/badge/LeetCode-subrata2005-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0d1117" alt="LeetCode" />
 </a>
 &nbsp;
-<a href="https://www.linkedin.com/in/subrata-bag" target="_blank">
+<a href="https://www.linkedin.com/in/subrata-bag-547091293/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Subrata%20Bag-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
 </a>
 &nbsp;
-<a href="mailto:subrata.bag.dev@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Gmail" />
+<a href="https://subrata-code.github.io/subrata-s-portfolio/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-Live%20Site-ec4899?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="Portfolio" />
 </a>
 
 <br/><br/>
@@ -474,4 +455,3 @@ const subrata = {
 <!-- ║  🌌 Made with 💜 by Subrata Bag                                ║ -->
 <!-- ║  ✦ "The code is the poetry, the browser is the canvas" ✦       ║ -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-]]>
