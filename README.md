@@ -54,7 +54,17 @@ I build immersive web experiences, practice DSA with Java, explore DevOps and cl
 </p>
 
 <div align="center">
-  <img src="./assets/sections/tech-stack.svg" alt="Tech universe: languages, frontend, backend, database, DevOps, tools" width="100%" />
+  <img src="./assets/sections/tech-stack.svg" alt="Tech universe" width="100%" />
+  <br/>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,js,py,c,react,nextjs,tailwind,threejs,nodejs,express&theme=light" />
+    <img src="https://skillicons.dev/icons?i=java,js,py,c,react,nextjs,tailwind,threejs,nodejs,express&theme=dark" alt="Java, JavaScript, Python, C, React, Next.js, Tailwind, Three.js, Node.js, Express" />
+  </picture>
+  <br/><br/>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=mongodb,mysql,git,githubactions,docker,linux,aws,vscode,figma,postman&theme=light" />
+    <img src="https://skillicons.dev/icons?i=mongodb,mysql,git,githubactions,docker,linux,aws,vscode,figma,postman&theme=dark" alt="MongoDB, MySQL, Git, GitHub Actions, Docker, Linux, AWS, VS Code, Figma, Postman" />
+  </picture>
 </div>
 
 <p align="center">
@@ -101,15 +111,14 @@ I build immersive web experiences, practice DSA with Java, explore DevOps and cl
 </p>
 
 <div align="center">
-
-**Contribution stream**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/snake/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake" src="./assets/snake/github-contribution-grid-snake-dark.svg" width="100%" />
-</picture>
-
+  <img src="./assets/sections/leetcode.svg" alt="LeetCode insights" width="100%" />
+  <br/>
+  <a href="https://leetcode.com/u/subrata2005/">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://leetcard.jacoblin.cool/subrata2005?theme=light&font=Fira%20Code&ext=heatmap&border=0&radius=16" />
+      <img src="https://leetcard.jacoblin.cool/subrata2005?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=16" alt="LeetCode stats and heatmap for subrata2005" width="70%" />
+    </picture>
+  </a>
 </div>
 
 <p align="center">
@@ -146,22 +155,6 @@ I build immersive web experiences, practice DSA with Java, explore DevOps and cl
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <img src="./assets/dividers/wave.svg" alt="" width="100%" />
-</p>
-
-<div align="center">
-  <img src="./assets/sections/dsa.svg" alt="DSA journey timeline — study statuses, not certificates" width="100%" />
-</div>
-
-<p align="center">
-  <img src="./assets/dividers/neon.svg" alt="" width="100%" />
-</p>
-
-<div align="center">
-  <img src="./assets/sections/devops.svg" alt="DevOps learning pipeline" width="100%" />
-</div>
 
 <p align="center">
   <img src="./assets/dividers/grid.svg" alt="" width="100%" />

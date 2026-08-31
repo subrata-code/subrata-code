@@ -8,15 +8,14 @@ GitHub profile READMEs are static Markdown. `config/profile.yml` is the human so
 | --- | --- |
 | Name, headline, role | `README.md`, `assets/hero/hero.svg`, `assets/hero/hero-light.svg`, `assets/cards/profile-card.svg` |
 | Education / graduation | `assets/cards/profile-card.svg`, `assets/sections/mission.svg` |
-| GitHub username | `README.md` stats URLs, `.github/workflows/snake.yml` |
+| GitHub username | `README.md` stats URLs |
+| LeetCode username | `README.md` leetcard URL (currently `subrata2005`) |
 
-## Mission and journeys
+## Mission
 
 | Field | File | How to edit |
 | --- | --- | --- |
 | Mission bars | `assets/sections/mission.svg` | Change the inner `rect` width (max `210`) and the label text (`PRIMARY`, `ACTIVE`, …). Do not present widths as measured skill. |
-| DSA statuses | `assets/sections/dsa.svg` | Change the status string and circle color. Allowed: `IN PROGRESS`, `LEARNING`, `QUEUED`. |
-| DevOps stages | `assets/sections/devops.svg` | `STAGE` vs `AHEAD` on each node. |
 
 Regenerate from the design script if you prefer a bulk refresh:
 
@@ -25,6 +24,10 @@ python tools/generate_assets.py
 ```
 
 Then re-apply any manual text edits.
+
+## Skills
+
+Skill icons live in `README.md` as `skillicons.dev` image URLs. Add or remove icon ids in those `i=` lists. Do not add skill names as visible text.
 
 ## Projects
 
@@ -40,14 +43,8 @@ Only add milestones that actually happened. Replace a `LOCKED` slot in `assets/s
 
 ## Theme
 
-Colors are defined at the top of `tools/generate_assets.py` and copied into SVG `<defs>`. Dark mode is primary. Light variants exist for hero, profile card, footer, and the snake.
-
-## Snake
-
-1. Repo **Settings → Actions → General**: allow Actions, and allow GitHub Actions to create pull requests / write contents (default `GITHUB_TOKEN` write is enough if the workflow `permissions` stay `contents: write`).
-2. Run **Actions → Generate contribution snake → Run workflow**.
-3. Generated files replace `assets/snake/*.svg` on the default branch.
+Colors are defined at the top of `tools/generate_assets.py` and copied into SVG `<defs>`. Dark mode is primary. Light variants exist for hero, profile card, footer, skills, stats, and LeetCode.
 
 ## Stats services
 
-Username must remain `subrata-code` in every stats URL. If a card fails to render, the service is down — local SVGs still load.
+GitHub username must remain `subrata-code`. LeetCode username must remain `subrata2005` unless you change both `config/profile.yml` and the README card URL.

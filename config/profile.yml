@@ -7,7 +7,7 @@
 
 identity:
   name: "Subrata Bag"
-  github_username: "subrata-code"   # used by stats + snake
+  github_username: "subrata-code"   # used by GitHub stats cards
   headline: "Creative Developer"
   role: "Three.js / React Three Fiber Developer Intern"
   education: "B.Tech Computer Science & Engineering"
@@ -33,34 +33,6 @@ mission:
   full_stack: { label: "ACTIVE", bar: 140 }
   open_source: { label: "SIGNAL", bar: 96 }
 
-# Statuses: IN PROGRESS | LEARNING | QUEUED  — edit assets/sections/dsa.svg
-dsa_status:
-  Arrays: "IN PROGRESS"
-  Strings: "IN PROGRESS"
-  Hashing: "LEARNING"
-  Two_Pointers: "LEARNING"
-  Sliding_Window: "LEARNING"
-  Linked_List: "QUEUED"
-  Stack: "QUEUED"
-  Queue: "QUEUED"
-  Binary_Search: "QUEUED"
-  Trees: "QUEUED"
-  Graphs: "QUEUED"
-  Dynamic_Programming: "QUEUED"
-
-# STAGE = currently practicing, AHEAD = next. Edit assets/sections/devops.svg
-devops_status:
-  Linux: STAGE
-  Networking: STAGE
-  Git: STAGE
-  Docker: STAGE
-  CI_CD: STAGE
-  GitHub_Actions: AHEAD
-  AWS: AHEAD
-  Kubernetes: AHEAD
-  Terraform: AHEAD
-  Monitoring: AHEAD
-
 projects:
   rivo:
     title: "Rivo"
@@ -82,7 +54,7 @@ social:
   github: "https://github.com/subrata-code"
   linkedin: "https://www.linkedin.com/in/subrata-bag-547091293/"
   portfolio: "https://subrata-code.github.io/subrata-s-portfolio/"
-  leetcode: "https://leetcode.com/u/subrata2005/"
+  leetcode: "https://leetcode.com/u/subrata2005/"  # insights card uses username subrata2005
   instagram: "EDIT_ME"
   geeksforgeeks: "EDIT_ME"
 

@@ -23,7 +23,9 @@ print("external_urls")
 for u in urls:
     print(" ", u)
 
-wf = Path(".github/workflows/snake.yml")
-text = wf.read_text(encoding="utf-8")
-for key in ("workflow_dispatch", "schedule", "contents: write", "Platane/snk/svg-only@v3", "subrata-code"):
-    print("workflow", key, key in text)
+for forbidden in ("snake", "dsa.svg", "devops.svg"):
+    if forbidden in readme and "project-dsa" not in forbidden:
+        if forbidden == "snake" and "snake" in readme.lower():
+            print("WARN readme still mentions snake")
+        if forbidden.endswith(".svg") and f"sections/{forbidden}" in readme:
+            print("WARN readme still references", forbidden)

@@ -295,103 +295,25 @@ def mission():
 
 
 def tech():
-    w, h = 1100, 430
-    cats = [
-        (40, 90, "LANGUAGES", ["Java", "JavaScript", "Python", "C"]),
-        (300, 90, "FRONTEND", ["React", "Next.js", "Tailwind", "Three.js", "R3F"]),
-        (600, 90, "BACKEND", ["Node.js", "Express"]),
-        (820, 90, "DATABASE", ["MongoDB", "MySQL"]),
-        (40, 250, "DEVOPS", ["Git", "GitHub Actions", "Docker", "Linux", "AWS"]),
-        (600, 250, "TOOLS", ["VS Code", "Figma", "Postman"]),
-    ]
-    blocks = []
-    for x, y, title, items in cats:
-        blocks.append(f'<text class="m" x="{x}" y="{y}" fill="{CYAN}" font-size="11" letter-spacing="2">{title}</text>')
-        for i, it in enumerate(items):
-            yy = y + 18 + i * 26
-            blocks.append(
-                f'<rect x="{x}" y="{yy}" width="220" height="22" rx="5" fill="#0c1628" stroke="{LINE}"/>'
-                f'<circle cx="{x+12}" cy="{yy+11}" r="3" fill="{ELEC}"/>'
-                f'<text class="t" x="{x+24}" y="{yy+15}" fill="{TEXT}" font-size="12">{it}</text>'
-            )
+    w, h = 1100, 88
     body = f'''
-<rect width="{w}" height="{h}" rx="16" fill="{BG}"/>
-<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="15" fill="#070e1a" stroke="{LINE}"/>
-{stars(14, w, h, 8)}
-<text class="m" x="40" y="40" fill="{CYAN}" font-size="11" letter-spacing="3">TECH UNIVERSE</text>
-<text class="t" x="40" y="68" fill="{TEXT}" font-size="22" font-weight="700">Systems in orbit</text>
-{''.join(blocks)}
+<rect width="{w}" height="{h}" rx="12" fill="{BG2}" stroke="{LINE}"/>
+{stars(10, w, h, 8)}
+<text class="m" x="28" y="36" fill="{CYAN}" font-size="11" letter-spacing="3">TECH UNIVERSE</text>
+<text class="t" x="28" y="62" fill="{TEXT}" font-size="18" font-weight="700">Systems in orbit</text>
+<text class="m" x="1072" y="50" text-anchor="end" fill="{DIM}" font-size="11">ICONS ONLY</text>
 '''
     return svg(w, h, body)
 
 
-def dsa():
-    topics = [
-        ("Arrays", "IN PROGRESS"),
-        ("Strings", "IN PROGRESS"),
-        ("Hashing", "LEARNING"),
-        ("Two Pointers", "LEARNING"),
-        ("Sliding Window", "LEARNING"),
-        ("Linked List", "QUEUED"),
-        ("Stack", "QUEUED"),
-        ("Queue", "QUEUED"),
-        ("Binary Search", "QUEUED"),
-        ("Trees", "QUEUED"),
-        ("Graphs", "QUEUED"),
-        ("DP", "QUEUED"),
-    ]
-    colors = {
-        "IN PROGRESS": CYAN,
-        "LEARNING": ELEC,
-        "QUEUED": DIM,
-    }
-    cells = []
-    for i, (name, st) in enumerate(topics):
-        col, row = i % 4, i // 4
-        x, y = 40 + col * 265, 108 + row * 82
-        c = colors[st]
-        cells.append(f'''<g transform="translate({x} {y})">
-  <rect width="248" height="68" rx="10" fill="#0c1628" stroke="{LINE}"/>
-  <text class="t" x="16" y="28" fill="{TEXT}" font-size="14" font-weight="600">{name}</text>
-  <text class="m" x="16" y="50" fill="{c}" font-size="10" letter-spacing="1.2">{st}</text>
-  <circle cx="224" cy="34" r="5" fill="{c}" opacity=".9"/>
-</g>''')
-    w, h = 1100, 370
+def leetcode():
+    w, h = 1100, 88
     body = f'''
-<rect width="{w}" height="{h}" rx="16" fill="{BG}"/>
-<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="15" fill="#070e1a" stroke="{LINE}"/>
-<text class="m" x="40" y="40" fill="{CYAN}" font-size="11" letter-spacing="3">DSA JOURNEY  ·  JAVA</text>
-<text class="t" x="40" y="70" fill="{TEXT}" font-size="22" font-weight="700">Problem-solving timeline</text>
-<text class="t" x="40" y="92" fill="{DIM}" font-size="12">Statuses are study markers, not certificates. Edit labels in assets/sections/dsa.svg</text>
-<!-- EDIT: status text IN PROGRESS | LEARNING | QUEUED — do not treat as completion. -->
-{''.join(cells)}
-'''
-    return svg(w, h, body)
-
-
-def devops():
-    stages = ["Linux", "Net", "Git", "Docker", "CI/CD", "GHA", "AWS", "K8s", "Tf", "Mon"]
-    nodes = []
-    for i, s in enumerate(stages):
-        x = 48 + i * 104
-        active = i < 5  # editorial: earlier pipeline more active, not a claim of mastery
-        fill = "#123056" if active else "#0c1628"
-        ring = CYAN if active else LINE
-        nodes.append(f'''<g transform="translate({x} 140)">
-  <rect width="88" height="64" rx="10" fill="{fill}" stroke="{ring}"/>
-  <text class="m" x="44" y="28" text-anchor="middle" fill="{TEXT}" font-size="11">{s}</text>
-  <text class="m" x="44" y="46" text-anchor="middle" fill="{DIM}" font-size="9">{"STAGE" if active else "AHEAD"}</text>
-</g>''')
-        if i < len(stages) - 1:
-            nodes.append(f'<line x1="{x+88}" y1="172" x2="{x+104}" y2="172" stroke="{CYAN}" stroke-opacity=".4"/>')
-    w, h = 1100, 250
-    body = f'''
-<rect width="{w}" height="{h}" rx="16" fill="{BG}"/>
-<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="15" fill="#070e1a" stroke="{LINE}"/>
-<text class="m" x="40" y="40" fill="{CYAN}" font-size="11" letter-spacing="3">DEVOPS PIPELINE</text>
-<text class="t" x="40" y="70" fill="{TEXT}" font-size="22" font-weight="700">Deployment roadmap</text>
-<text class="t" x="40" y="94" fill="{DIM}" font-size="12">A learning path, not a production résumé. STAGE = currently practicing. AHEAD = next.</text>
-{''.join(nodes)}
+<rect width="{w}" height="{h}" rx="12" fill="{BG2}" stroke="{LINE}"/>
+{stars(10, w, h, 6)}
+<text class="m" x="28" y="36" fill="{CYAN}" font-size="11" letter-spacing="3">LEETCODE INSIGHTS</text>
+<text class="t" x="28" y="62" fill="{TEXT}" font-size="18" font-weight="700">Problem telemetry  ·  subrata2005</text>
+<text class="m" x="1072" y="50" text-anchor="end" fill="{DIM}" font-size="11">LIVE CARD</text>
 '''
     return svg(w, h, body)
 
@@ -573,18 +495,6 @@ def icon(name, glyph_path):
 '''
 
 
-def snake_placeholder(dark=True):
-    w, h = 1100, 180
-    bg = "#0d1117" if dark else "#ffffff"
-    fg = "#8b9cc8" if dark else "#64748b"
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
-  <rect width="{w}" height="{h}" fill="{bg}"/>
-  <text font-family="{MONO}" x="550" y="90" text-anchor="middle" fill="{fg}" font-size="14">Contribution snake generates after GitHub Actions runs.</text>
-  <text font-family="{MONO}" x="550" y="114" text-anchor="middle" fill="{CYAN}" font-size="11">Enable Actions, then run workflow: Generate contribution snake</text>
-</svg>
-'''
-
-
 def main():
     write("assets/hero/hero.svg", hero(False))
     write("assets/hero/hero-light.svg", hero(True))
@@ -593,8 +503,7 @@ def main():
     write("assets/sections/about.svg", about())
     write("assets/sections/mission.svg", mission())
     write("assets/sections/tech-stack.svg", tech())
-    write("assets/sections/dsa.svg", dsa())
-    write("assets/sections/devops.svg", devops())
+    write("assets/sections/leetcode.svg", leetcode())
     write("assets/sections/command-center.svg", command_center())
     write("assets/sections/achievements.svg", achievements())
     write("assets/cards/coding-terminal.svg", terminal())
@@ -654,8 +563,6 @@ def main():
     write("assets/dividers/orbit.svg", divider_orbit())
     write("assets/dividers/wave.svg", divider_wave())
     write("assets/dividers/grid.svg", divider_grid())
-    write("assets/snake/github-contribution-grid-snake-dark.svg", snake_placeholder(True))
-    write("assets/snake/github-contribution-grid-snake.svg", snake_placeholder(False))
     write(
         "assets/icons/github.svg",
         icon("gh", f'<path d="M16 8a8 8 0 0 0-2.5 15.6c.4.07.5-.17.5-.38v-1.3c-2.2.48-2.7-1.06-2.7-1.06-.36-.9-.9-1.14-.9-1.14-.74-.5.06-.5.06-.5.82.06 1.25.84 1.25.84.73 1.25 1.9.89 2.36.68.07-.53.28-.89.5-1.1-1.76-.2-3.6-.88-3.6-3.92 0-.87.3-1.58.82-2.14-.08-.2-.36-1.02.08-2.12 0 0 .67-.22 2.2.82A7.6 7.6 0 0 1 16 11.2c.68 0 1.36.1 2 .28 1.52-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.5.56.82 1.27.82 2.14 0 3.05-1.86 3.72-3.62 3.92.28.24.54.72.54 1.46v2.16c0 .21.14.46.54.38A8 8 0 0 0 16 8z" fill="{TEXT}"/>'),
