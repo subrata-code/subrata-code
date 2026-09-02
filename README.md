@@ -149,7 +149,7 @@ I build immersive web experiences, practice DSA with Java, explore DevOps and cl
 </p>
 
 <div align="center">
-  <img src="./assets/sections/achievements.svg" alt="Achievement console — real slots only" width="100%" />
+  <img src="./assets/sections/achievements.svg" alt="Achievement console — Hacktoberfest, Azmth Lab Intern, HackOnIt Finalist, TechExpo Award" width="100%" />
 </div>
 
 <p align="center">
